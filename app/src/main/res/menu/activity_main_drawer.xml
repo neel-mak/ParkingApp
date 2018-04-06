@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Book a Spot" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="List a Spot" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Past Bookings" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Payments" />
+            <item
+                android:id="@+id/nav_promos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Promos" />
+            <item
+                android:id="@+id/nav_wallet"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Wallet" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_menu_send"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/nav_ratings"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Ratings" />
+        </menu>
+    </group>
+
+    <group android:checkableBehavior="single"
+           android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_Legal"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Legal" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Logout" />
+
+        </menu>
+    </group>
+</menu>
